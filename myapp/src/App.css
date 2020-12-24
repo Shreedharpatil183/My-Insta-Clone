@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+}
+.app {
+  background-color: #fafafa;
+}
+.app__login {
+  display: grid;
+  place-items: center;
+  background-color: #fafafa;
+  height: 100vh; 
+}
+.app__logout {
+  margin-left: 10px;
+  margin-top: 10px;
+  text-transform: inherit !important;
+  background-color: rgb(245, 24, 24);
+  font-size: large;
+  width: 120px !important;
+  height: 30px !important;
+  border: none;
+  
+}
+.app__body {
+  background-color: #fafafa;
+}
+
+.app__posts {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}

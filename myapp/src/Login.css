@@ -1,0 +1,71 @@
+.login {
+    background-color: #f8f8f8;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+
+}
+.login__container {
+    padding: 100px;
+    width: 25%;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5), 0 1px;
+}
+.login__container > img {
+    object-fit: contain;
+    image-resolution: 10000;
+    height: 50%;
+    width: 50%;
+    margin-bottom: 40px;
+}
+.login__container > button {
+    margin-top: 10px;
+    text-transform: inherit !important;
+    background-color: rgba(38, 152, 245, 0.986);
+    color: white;
+    width: 100% !important;
+}
+
+.login__inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 50%; */
+    object-fit: contain;
+}
+
+.input__text {
+    margin-bottom: 10px;
+    width: 100% !important;
+    height: 100% !important;
+}
+.login__text {
+    margin-top: 15px;
+    font-size: small;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+}
+.login__text > button {
+    margin-left: 10px;
+    font-size: small !important;
+    font-weight: bold;
+    color: rgba(38, 152, 245, 0.986);;
+}
+
+.app__signup {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+.login__signup {
+    margin-top: 10px;
+    text-transform: inherit !important;
+    background-color: rgba(38, 152, 245, 0.986);
+    color: white;
+    width: 100% !important;
+}

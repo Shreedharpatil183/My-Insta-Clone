@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  object-fit: contain; 
+  justify-content: space-between;
+}
+
+.header__image {
+    object-fit: contain;
+  }
+.header__input {
+    background-color: lightgray;
+}
+
+.header__inputSearch {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    object-fit: contain;
+}
+
+.header__search {
+    background-color: #fafafa;
+}
+
+.header__inputSearch > input {
+    flex: 1;
+    height: 30px;
+    /* border: none; */
+  }
+
+  .header__icons {
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    
+  }
+  .header__iconsSize {
+    margin-left: 10px;
+    width: 50px !important;
+    height: 30px !important;
+  }
